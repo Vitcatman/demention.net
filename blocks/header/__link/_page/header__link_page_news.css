@@ -5,6 +5,11 @@
   line-height: 20px;
   color: black;
   white-space: nowrap;
+  transition: border-bottom 0.5s cubic-bezier(0.2,-2,0.8,2);
+}
+
+.header__link_page_news:hover {
+  border-bottom: 2px solid #6D097A;
 }
 
 @media screen and (max-width:1400px){
