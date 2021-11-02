@@ -34,34 +34,6 @@ const sponsorsSwiper = new Swiper('.sponsors__swiper', {
     }
 });
 
-const slider = new Swiper('.slider__swiper', {
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    slidesPerView: 4,
-    loop: true,
-    autoplay: {
-      delay: 1500,
-      stopOnLastSlide: false,
-      disableOnInteraction: true,
-      reverseDirection: true
-  },
-
-    speed: 3000,
-    breakpoints: {
-        320: {
-            slidesPerView: 2,
-        },
-        450: {
-            slidesPerView: 3,
-        },
-        800: {
-            slidesPerView: 4,
-        },
-    },
-});
-
 const wNewSlider = new Swiper('.w-new__slider', {
     navigation: {
         nextEl: '.w-new__slider-button-next',
@@ -76,7 +48,7 @@ const wNewSlider = new Swiper('.w-new__slider', {
       disableOnInteraction: true
   },
 
-    speed: 3000,
+    speed: 1000,
     breakpoints: {
         320: {
             slidesPerView: 2,
@@ -127,7 +99,7 @@ const articleSwiper = new Swiper(".article-slider__swiper", {
         stopOnLastSlide: false,
         disableOnInteraction: true
     },
-    speed: 3000,
+    speed: 1500,
 });
 
 const popupMenu = document.querySelector(".popup_type_menu");
